@@ -39,6 +39,13 @@ if dein#load_state(s:plugin_dir)
   
   call dein#add('itchyny/lightline.vim')
 
+  " color scheme
+  call dein#add('vim-scripts/xoria256.vim')
+  call dein#add('nanotech/jellybeans.vim')
+  call dein#add('w0ng/vim-hybrid')
+  call dein#add('vim-scripts/twilight')
+  call dein#add('jonathanfilip/vim-lucius')
+
   " Required:
   call dein#end()
   call dein#save_state()
