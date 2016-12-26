@@ -1,0 +1,18 @@
+" 起動ショートカット
+nnoremap <F5> :VimFiler<CR>
+nnoremap <F6> :VimFilerSplit<CR>
+" vimfiler をデフォルトのファイルエクスプローラとして使用する。
+let g:vimfiler_as_default_explorer = 1
+" セーフモードの有効:1/無効:0
+let g:vimfiler_safe_mode_by_default = 0
+"" ディレクトリのコピーコマンド
+"let g:vimfiler_external_copy_directory_command = 'cp -r $src $dest'
+"" ファイルのコピーコマンド
+"let g:vimfiler_external_copy_file_command = 'cp $src $dest'
+"" 削除コマンド
+"let g:vimfiler_external_delete_command = 'rm -r $srcs'
+"" 移動コマンド
+"let g:vimfiler_external_move_command = 'mv $srcs $dest'
+" 関連付け
+call vimfiler#set_execute_file('vim', 'vim')
+
