@@ -26,7 +26,11 @@ if dein#load_state(s:plugin_dir)
   " Add or remove your plugins here:
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
-  
+
+  call dein#add('Shougo/neocomplete.vim', {
+    \ 'if' : has('lua')
+    \ })
+
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
   
