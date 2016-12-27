@@ -21,7 +21,7 @@ augroup cch
 augroup END
 
 hi CursorLine ctermbg=black guibg=black
-hi CursorLine term=reverse cterm=none ctermbg=242
+"hi CursorLine term=reverse cterm=none ctermbg=242
 
 " コマンド実行中は再描画しない
 set lazyredraw
