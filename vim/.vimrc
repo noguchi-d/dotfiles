@@ -7,4 +7,5 @@ source ~/.vimrc.basic
 source ~/.vimrc.indent
 source ~/.vimrc.apperance
 source ~/.vimrc.move
+source ~/.vimrc.search
 
