@@ -17,7 +17,7 @@ endif
 if dein#load_state(s:plugin_dir)
   " Required:
   call dein#begin(s:plugin_dir)
-  
+
   " Let dein manage dein
   " Required:
   call dein#add('Shougo/dein.vim')
@@ -36,8 +36,9 @@ if dein#load_state(s:plugin_dir)
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
-  
+
   call dein#add('itchyny/lightline.vim')
+  call dein#add('bronson/vim-trailing-whitespace')
 
   " color scheme
   call dein#add('vim-scripts/xoria256.vim')
@@ -50,7 +51,7 @@ if dein#load_state(s:plugin_dir)
   call dein#end()
   call dein#save_state()
 endif
-  
+
 " Required:
 filetype plugin indent on
 syntax enable

@@ -32,3 +32,7 @@ imap <C-p>  <ESC>"*pa
 "command! Ev edit $MYVIMRC
 "command! Rv source $MYVIMRC
 
+" ファイル保存時に余分なスペースを削除する
+" bronson/vim-trailing-whitespace を必要とする
+autocmd BufWritePre * :FixWhitespace
+
